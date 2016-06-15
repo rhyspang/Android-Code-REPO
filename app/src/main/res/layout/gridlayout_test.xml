@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:background="@drawable/dark_stroke"
+        android:layout_marginTop="30dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="MoveTimes:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="42sp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="0"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="42sp"
+            android:layout_margin="10dp"
+            android:id="@+id/tv_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:background="@drawable/black_strock"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/game_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textSize="52sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ashen_bg"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/button1"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textSize="52sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ashen_bg"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/button2"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textSize="52sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ashen_bg"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/button3"
+            android:layout_row="0"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:textSize="52sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ashen_bg"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/button4"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            android:gravity="center"
+            android:textSize="52sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ashen_bg"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/button5"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:textSize="52sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ashen_bg"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/button6"
+            android:layout_row="1"
+            android:layout_column="2" />
+        <Button
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:textSize="52sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ashen_bg"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/button7"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <Button
+            android:gravity="center"
+            android:textSize="52sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ashen_bg"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/button8"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:textSize="52sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ashen_bg"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:id="@+id/button9"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/autoMove"
+        android:background="@drawable/ashen_bg"
+        android:layout_marginTop="20dp"
+        android:text="AUTO MOVE"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

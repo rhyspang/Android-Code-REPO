@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_margin="10dp"
+        android:background="@drawable/orange_bg"
+        android:gravity="center"
+        android:text="Move times: 8"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/black_strock"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:text="1"
+                android:gravity="center"
+                android:textSize="52sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ashen_bg"
+                android:id="@+id/bt_loc1"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <Button
+                android:text="2"
+                android:gravity="center"
+                android:textSize="52sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ashen_bg"
+                android:id="@+id/bt_loc2"
+                android:layout_marginLeft="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <Button
+                android:text="3"
+                android:gravity="center"
+                android:textSize="52sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ashen_bg"
+                android:id="@+id/bt_loc3"
+                android:layout_marginLeft="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:text="4"
+                android:gravity="center"
+                android:textSize="52sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ashen_bg"
+                android:id="@+id/bt_loc4"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <Button
+                android:text="5"
+                android:gravity="center"
+                android:textSize="52sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ashen_bg"
+                android:id="@+id/bt_loc5"
+                android:layout_marginLeft="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <Button
+                android:text="6"
+                android:gravity="center"
+                android:textSize="52sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ashen_bg"
+                android:id="@+id/bt_loc6"
+                android:layout_marginLeft="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:text="7"
+                android:gravity="center"
+                android:textSize="52sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ashen_bg"
+                android:id="@+id/bt_loc7"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <Button
+                android:text="8"
+                android:gravity="center"
+                android:textSize="52sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ashen_bg"
+                android:id="@+id/bt_loc8"
+                android:layout_marginLeft="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <Button
+                android:text=""
+                android:gravity="center"
+                android:textSize="52sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ashen_bg"
+                android:id="@+id/bt_loc9"
+                android:layout_marginLeft="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

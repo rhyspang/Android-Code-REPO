@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pash.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RadioButtonTest"/>
+        <activity android:name=".ToggleButtonTest"/>
+        <activity android:name=".MarqueeTest"/>
+        <activity android:name=".FrameLayoutCaseTest"/>
+        <activity android:name=".FrameLayoutCase1"/>
+        <activity android:name=".FrameLayoutCase2"/>
+        <activity android:name=".TableLayoutTest"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            />
+        <activity android:name=".ListViewTest"/>
+
+        <activity android:name=".AnimationTest"/>
+        <activity android:name=".GameEightFigure"/>
+        <activity android:name=".EightFigure"/>
+        <activity android:name=".AnimatiorTest"/>
+    </application>
+
+</manifest>
